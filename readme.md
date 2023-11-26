@@ -11,6 +11,8 @@ The pipeline starts with data ingestion through FastAPI, feeding into Kafka. Spa
 
 ## Directory Structure
 Below is the directory structure of the "Real-Time Sales Streaming" project, providing a quick overview of the key components and their organization:
+
+```
 .
 ├── cassandra
 │ └── cassandra-init.sh # Initialization script for Cassandra
@@ -39,7 +41,7 @@ Below is the directory structure of the "Real-Time Sales Streaming" project, pro
 │ └── superset-init.sh # Initialization script for Superset
 └── docker-compose.yml # Docker Compose configuration file
 
-
+```
 
 ## Prerequisites
 - Docker installed on your system
